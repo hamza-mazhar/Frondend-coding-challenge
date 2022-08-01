@@ -33,8 +33,6 @@ Web application based on React (clientside) and Antd (ui)
 
 # Features
 
-Time entry
-
 - [x] Get All the Albums
 - [x] Get All the Photos
 - [x] Pagination & Filtration
