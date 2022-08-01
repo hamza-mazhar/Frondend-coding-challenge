@@ -1,39 +1,46 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.filter-action {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.album-header-filter {
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+  background: #fafafa;
+  border-radius: 3px;
+  padding: 7px;
+  align-items: center;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.album-section {
+  margin: 2%;
+}
+
+.album-heading-section {
+  display: flex;
+}
+
+.album-sub-heading {
+  padding-left: 15px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.album-details {
+  display: flex;
+  margin: 2%;
+  justify-content: space-between;
+  background: #fafafa;
+  padding: 2%;
+  border-radius: 5px;
+}
+.photo-section-table {
+  margin: 2%;
+}
+.photo-details-card-body {
+  display: flex;
+  padding: 2%;
 }
